@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.NewsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv1"
+            style="@style/ImageStyle"
+            android:src="@drawable/abstract_abstract_expressionism_art_2505693" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            style="@style/ImageStyle"
+            android:src="@drawable/adventure_automobile_classic_2533092" />
+
+        <ImageView
+            android:id="@+id/iv3"
+            style="@style/ImageStyle"
+            android:src="@drawable/aerial_photography_aerial_shot_aerial_view_2583847" />
+
+        <ImageView
+            android:id="@+id/iv4"
+            style="@style/ImageStyle"
+            android:src="@drawable/afterglow_beach_cliff_2555285" />
+
+        <ImageView
+            android:id="@+id/iv5"
+            style="@style/ImageStyle"
+            android:src="@drawable/alley_architecture_buildings_2526517" />
+
+        <ImageView
+            android:id="@+id/iv6"
+            style="@style/ImageStyle"
+            android:src="@drawable/architectural_design_architecture_bridge_2540653" />
+
+        <ImageView
+            android:id="@+id/iv7"
+            style="@style/ImageStyle"
+            android:src="@drawable/beautiful_breathtaking_canada_day_2526105" />
+
+    </LinearLayout>
+
+</ScrollView>

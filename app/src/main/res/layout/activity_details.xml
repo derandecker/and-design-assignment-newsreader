@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryLight"
+    android:padding="4dp"
+    tools:context=".ui.DetailsActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginBottom="8dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_image_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Title"
+            android:layout_marginBottom="4dp"
+            android:textSize="56sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-black"
+            android:gravity="fill_horizontal"
+            app:layout_constraintBottom_toTopOf="@id/iv_image"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/architectural_design_architecture_bridge_2540653"
+            app:layout_constraintBottom_toTopOf="@id/tv_body_text"
+            app:layout_constraintTop_toBottomOf="@id/tv_image_title" />
+
+
+        <TextView
+            android:id="@+id/tv_body_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Faucibus scelerisque eleifend donec pretium vulputate. Placerat duis ultricies lacus sed turpis. Senectus et netus et malesuada fames ac turpis egestas. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Elit sed vulputate mi sit. Feugiat vivamus at augue eget arcu. Urna condimentum mattis pellentesque id. At erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Vulputate sapien nec sagittis aliquam. Mauris augue neque gravida in fermentum et. Morbi enim nunc faucibus a pellentesque sit amet porttitor. Quis varius quam quisque id diam vel quam. Non odio euismod lacinia at quis. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Gravida rutrum quisque non tellus. Faucibus a pellentesque sit amet porttitor eget dolor morbi non."
+            android:textSize="18sp"
+            android:breakStrategy="high_quality"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_image" />
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
