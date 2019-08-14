@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
     tools:context=".ui.MainActivity">
 
     <LinearLayout
@@ -35,6 +36,7 @@
             android:id="@+id/btn_login"
             android:text="Sign in"
             android:textSize="32sp"
+            android:background="@color/colorAccent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -42,6 +44,7 @@
             android:id="@+id/btn_register"
             android:text="Register"
             android:textSize="32sp"
+            android:background="@color/colorPrimaryText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
